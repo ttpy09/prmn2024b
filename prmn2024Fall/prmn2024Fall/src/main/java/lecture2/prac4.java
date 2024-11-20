@@ -4,6 +4,7 @@ public class prac4 {
     public static void main(String[] args) {
         String[][] gakuseki = new String[5][2];
         Scanner sc = new Scanner(System.in);
+        //学籍番号、パスワードの設定
         for (int i = 0; i < gakuseki.length; i++) {
             for (int j = 0; j < gakuseki[i].length; j++) {
                 if(j==0){
