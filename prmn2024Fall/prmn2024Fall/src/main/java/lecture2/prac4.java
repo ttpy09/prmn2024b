@@ -19,10 +19,10 @@ public class prac4 {
         System.out.print("ログイン情報（学籍番号）を入力してください:");
         String gakubann = sc.nextLine();
         pasuwa p = new pasuwa();
-        p.gakubann(gakuseki, gakubann);
+        int x= p.gakubann(gakuseki, gakubann);
         System.out.print("パスワードを入力してください:");
         String pass = sc.nextLine();
-        p.hantei(gakuseki,pass);
+        p.hantei(gakuseki,pass,x);
 
     }
 }
